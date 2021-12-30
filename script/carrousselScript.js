@@ -36,7 +36,7 @@ function precedent(){
         if(count > 0){
             count--
         } else {
-            count = 0;
+            count = countImg-1 ;
         }
 
         
