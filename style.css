@@ -1,0 +1,38 @@
+.container {
+  width: 40%;
+  height: 6rem;
+}
+.container img {
+  max-width: 100%;
+  display: none;
+}
+.container img.active {
+  display: block;
+  animation: fade 0.8s;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.container .select {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.container .select button {
+  font-size: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: white;
+  background-color: goldenrod;
+  margin-top: 1rem;
+  padding: 10px;
+  border-radius: 7%;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
